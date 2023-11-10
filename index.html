@@ -7,11 +7,11 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.108.0">
     <title>Currículo</title>
-    <link rel="stylesheet" href="./vendor/bootstrap/css/style.css"> 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">  
-
-    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="./vendor/bootstrap/css/carousel.css" rel="stylesheet">
+    <link rel="stylesheet" href="./vendor/bootstrap/css/style.css"/> 
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/"/>  
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="./vendor/bootstrap/css/carousel.css" rel="stylesheet"/>
   </head>
   <body>
     
@@ -291,7 +291,7 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading fw-normal lh-1">Curiosidades... </a><br> <span class="text-muted"> Nadando no Mar...</span></h2>
+        <h2 class="featurette-heading fw-normal lh-1">Curiosidades... </a><br> <span class="text-muted"><b> Nadando no Mar...</b></span></h2>
         <p class="lead">Tenho 23 medalhas, sendo 10 medalhas da Travessias <br>
                         de 1.500 metros, 1 travessia de 2.200 metros. <br/>
                         E 10 medalhas da piscina Olimpíadas, entre elas crawl, <br>
@@ -301,24 +301,28 @@
         <img src="imagens/medalhas.jpg" alt="Foto das Medalhas" width="400" height="300">
       </div>
     </div>
-    <hr class="featurette-divider"  id="dados" >
+    <hr class="featurette-divider" id="dados" >
 
     <div class="row featurette" >
       <div class="col-md-7">
         <br/>
-        <h2 class="featurette-heading fw-normal lh-1" >  Eu sou </a><span class="text-muted"> <br/> Sérgio Renato Steglich</span></h2>
-        <p class="lead"><!--Endereço: Rod. Virgilio Várzea, 244 - Apto 502-C <br/> 
+        <h2 class="featurette-heading fw-normal lh-1" >  Eu sou </a><span class="text-muted"> <br/><b> Sérgio Renato Steglich</b></span></h2>
+        <p class="lead">
+                        <!--Endereço: Rod. Virgilio Várzea, 244 - Apto 502-C <br/> 
                         Bairro Monte Verde <br/> Florianópolis - SC &emsp; &emsp; &emsp; CEP: 88032-001 <br/>  -->
-                        Moro na cidade de Florianópolis - SC <br/>
-                        Email: srsteglich@gmail.com <br/> 
-                        Whatsapps: +55 (48) 98808-1082 <br/>
-                        Site: https://srsteglich.github.io/Curriculo-Digital/# <br/>
-                        Linkedin: https://www.linkedin.com/in/sergio-r-steglich/ <br/></p>
+                        Moro na cidade de Florianópolis - SC </br>
+                        <i class='bx bxs-envelope' ></i>                <!-- desenho peguei no https://boxicons.com/?query=  e colocar na linha 12 -->                                                                                  
+                        <a href="#modalSignin">Email </a> <br/>         <!--  Email: srsteglich@gmail.com <br/>     -->
+                        <i class='bx bxl-whatsapp' ></i>
+                        <a href="#modalSignin">Whatsapps </a> <br/>     <!--      Whatsapps: +55 (48) 98808-1082 <br/> -->
+                        <i class='bx bxl-github'></i>
+                        <a target="_blank" href="https://github.com/srsteglich">GitHub </a> <br/>
+                        <i class='bx bxl-linkedin-square' ></i>
+                        <a target="_blank" href="https://www.linkedin.com/in/sergio-r-steglich/">Linkedin </a> <br/></p>
                         
       </div>
       <div class="col-md-5">
-        <img src="imagens/Foto.jpg" alt="Foto Sérgio" width="350" height="450">      
-
+        <img src="imagens/Foto.jpg" alt="Foto Sérgio" width="350" height="450" >      
       </div>
     </div>
     <br>
@@ -399,15 +403,16 @@
       </div>                        
       </div>   
     </div>
+    <a class="btn btn-lg btn-primary" href="#" >Volta no topo</a>
   </div> <!-- /.container -->
-
+  
 </main>
 
     <!-- FOOTER -->
-    <footer class="container">
-      
-      <p class="float-end"><a href="#">De volta ao topo</a></p>  
-      <p> Desenvolvido pelo &copy;SRSistemas - 2023. 
+    <footer class="container" id="footer">    
+      <!--<p class="float-end"><a href="#">De volta ao topo</a></p>   -->    
+       
+        Desenvolvido pelo &copy;SRSistemas - 2023.
     </footer>
     <script src="./vendor/bootstrap/js/script.js"></script>
     <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
